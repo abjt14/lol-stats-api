@@ -3,12 +3,12 @@ const cors = require('cors')
 const api = require('./src/api.js');
 
 const app = express();
-const port = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 
-app.listen(port, () => {
-  // console.log(`Listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 })
 
 const mainAPI = async (summoner) => {
