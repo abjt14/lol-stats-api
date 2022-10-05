@@ -1,0 +1,28 @@
+{
+  "name": "lol-stats-api",
+  "version": "1.0.0",
+  "description": "Round 2 Interview assignment for Battlefy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abjt14/lol-stats-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abjt14/lol-stats-api/issues"
+  },
+  "homepage": "https://github.com/abjt14/lol-stats-api#readme",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
