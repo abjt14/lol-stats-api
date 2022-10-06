@@ -69,7 +69,6 @@ const filterMatchData = (data, puuid) => {
 
   let {
     win,
-    gameDuration,
     summonerName,
     championID,
     championName,
@@ -105,7 +104,7 @@ const filterMatchData = (data, puuid) => {
   return {
     summonerName: summonerName,
     win: win,
-    gameDuration: gameDuration,
+    gameDuration: data.gameDuration,
     championData: {
       championID: championID,
       championName: championName,
