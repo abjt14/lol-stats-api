@@ -1,4 +1,4 @@
-const API_TOKEN = 'RGAPI-11f41a4d-2050-4355-b349-bde9732c8f0c';
+const API_TOKEN = 'RGAPI-7d005683-6e76-4991-9f7f-5a1908920151';
 const axios = require('axios');
 const items = require('../static/json/items.json');
 
